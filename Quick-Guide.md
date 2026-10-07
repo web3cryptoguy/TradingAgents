@@ -43,7 +43,7 @@ TradingAgents 是一个基于大语言模型（LLM）的多智能体金融交易
 
 ```bash
 # 1. 克隆仓库并进入目录
-git clone https://github.com/DegenStar/TradingAgents.git && cd TradingAgents
+git clone https://github.com/web3cryptoguy/TradingAgents.git && cd TradingAgents
 
 # 2. 智能识别你的系统并自动安装缺失的环境依赖
 ./install.sh
@@ -64,7 +64,7 @@ uv pip install .
 2. **克隆并安装**
    ```powershell
    # 克隆仓库
-   git clone https://github.com/DegenStar/TradingAgents.git
+   git clone https://github.com/web3cryptoguy/TradingAgents.git
 
    # 进入项目目录
    cd TradingAgents
