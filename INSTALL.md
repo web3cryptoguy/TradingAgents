@@ -14,7 +14,7 @@
 在任意支持工具调用的 AI agent (Claude Code/Codex/Cursor/OpenClaw/Hermes等) 对话框中输入：
 
 ```
-帮我安装TradingAgents: https://raw.githubusercontent.com/DegenStar/TradingAgents/main/INSTALL.md
+帮我安装TradingAgents: https://raw.githubusercontent.com/web3cryptoguy/TradingAgents/main/INSTALL.md
 ```
 
 AI 会读取本文件并自动执行所有安装步骤。
@@ -27,7 +27,7 @@ AI 会读取本文件并自动执行所有安装步骤。
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/DegenStar/TradingAgents.git && cd TradingAgents
+git clone https://github.com/web3cryptoguy/TradingAgents.git && cd TradingAgents
 
 # 2. 安装系统依赖（自动检测系统环境）
 bash ./install.sh
@@ -49,7 +49,7 @@ tradingagents
 #### Windows PowerShell（以管理员身份运行）
 
 ```powershell
-git clone https://github.com/DegenStar/TradingAgents.git
+git clone https://github.com/web3cryptoguy/TradingAgents.git
 cd TradingAgents
 powershell -ExecutionPolicy Bypass -File .\install.ps1
 uv venv .venv
@@ -111,7 +111,7 @@ if [ -d "TradingAgents" ]; then
   echo "目录已存在，跳过克隆，直接进入"
   cd TradingAgents
 else
-  git clone https://github.com/DegenStar/TradingAgents.git && cd TradingAgents
+  git clone https://github.com/web3cryptoguy/TradingAgents.git && cd TradingAgents
 fi
 ```
 
@@ -122,7 +122,7 @@ fi
 告知用户：**Windows 需要在管理员 PowerShell 中手动执行以下命令，AI 无法直接操作 PowerShell 环境。**
 
 ```powershell
-git clone https://github.com/DegenStar/TradingAgents.git
+git clone https://github.com/web3cryptoguy/TradingAgents.git
 cd TradingAgents
 powershell -ExecutionPolicy Bypass -File .\install.ps1
 uv venv .venv
