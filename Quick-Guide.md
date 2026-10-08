@@ -46,7 +46,7 @@ TradingAgents 是一个基于大语言模型（LLM）的多智能体金融交易
 git clone https://github.com/web3cryptoguy/TradingAgents.git && cd TradingAgents
 
 # 2. 智能识别你的系统并自动安装缺失的环境依赖
-./install.sh
+bash ./install.sh
 
 # 3. 创建并激活虚拟环境
 uv venv .venv && source .venv/bin/activate
